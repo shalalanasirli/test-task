@@ -398,6 +398,9 @@ main {
     padding: 60px 0;
     align-items: center;
   }
+  .hero-body {
+    align-items: center;
+  }
   .hero .swiper {
     margin: 0;
   }
@@ -495,6 +498,9 @@ main {
   }
   .hero-body {
     flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
     gap: 117px;
   }
   .hero .swiper {
@@ -520,7 +526,7 @@ main {
     padding: 8px 17px;
   }
   .hero-info {
-    max-width: 315px;
+    padding-left: 30px;
   }
   .hero-info-discover span {
     font-size: 25px;
