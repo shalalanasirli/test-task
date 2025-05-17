@@ -248,7 +248,7 @@ nav {
 }
 
 main {
-  background: url("../images/main-bg.webp") center center/cover no-repeat fixed;
+  background: url("../images/main-bg.png") center center/cover no-repeat fixed;
   width: 100%;
   font-weight: 400;
   flex-grow: 1;
@@ -364,7 +364,6 @@ main {
   font-size: 22px;
   line-height: 1.6;
   margin-bottom: 5px;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11);
 }
 .hero-info-discover a {
   display: inline-block;
